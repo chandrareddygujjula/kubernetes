@@ -4,9 +4,9 @@ metadata:
   name: mynginx-svc
   labeles:
      app: mynginx
-spec:
+Spec:
   type: NodePort
-  ports:
+  Ports:
   - port: 80
     nodePort: 30002
     protocal: TCP
